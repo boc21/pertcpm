@@ -8,6 +8,8 @@ draw/render a graph data structure with pear and GraphViz
 req: php
 req: httpd
 req: php-pear-Image-GraphViz
+  --OR (latest?)
+req: pear Image_GraphViz
 
 see http://www.graphviz.org and
 
