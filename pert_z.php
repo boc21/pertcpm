@@ -15,7 +15,7 @@
 include 'pert_class.php';
 
 // make a directed acyclic graph 
-$dag =& new graph(true);
+$dag = new graph(true);
 
 $aNodes = array(
  [ 'z', 0.5 ],
@@ -29,7 +29,7 @@ $nodes = array();
 
 foreach($aNodes as $node) {
   // make a new node 
-  $nodes[$node[0]] =& new node();
+  $nodes[$node[0]] = new node();
  
   // add node to the graph 
   $dag->addNode($nodes[$node[0]]);
